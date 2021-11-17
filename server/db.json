@@ -1,0 +1,84 @@
+{
+  "images": [
+    {
+      "createdAt": "2021-11-17T16:25:42.455Z",
+      "updatedAt": "2021-11-17T16:25:42.455Z",
+      "title": "John Persons",
+      "tags": [
+        {
+          "id": 1,
+          "element": "Abstract"
+        },
+        {
+          "id": 2,
+          "element": "Typography"
+        },
+        {
+          "id": 3,
+          "element": "Graffiti"
+        },
+        {
+          "id": 4,
+          "element": "Realism"
+        }
+      ],
+      "imageURL": "https://www.jamsadr.com/images/neutrals/person-donald-900x1080.jpg",
+      "thumbnailURL": "https://www.jamsadr.com/images/neutrals/person-donald-900x1080.jpg",
+      "id": 1
+    },
+    {
+      "createdAt": "2021-11-17T16:39:01.408Z",
+      "updatedAt": "2021-11-17T16:39:01.408Z",
+      "title": "John Doe",
+      "tags": [
+        {
+          "id": 2,
+          "element": "Typography"
+        }
+      ],
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Andrzej_Person_Kancelaria_Senatu.jpg",
+      "thumbnailURL": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Andrzej_Person_Kancelaria_Senatu.jpg",
+      "id": 2
+    },
+    {
+      "createdAt": "2021-11-17T17:14:54.195Z",
+      "updatedAt": "2021-11-17T17:14:54.195Z",
+      "title": "Jane Doe",
+      "tags": [
+        {
+          "id": 2,
+          "element": "Typography"
+        },
+        {
+          "id": 3,
+          "element": "Graffiti"
+        },
+        {
+          "id": 4,
+          "element": "Realism"
+        }
+      ],
+      "imageURL": "https://i.pinimg.com/originals/e4/81/36/e48136964161ddef409706fee5b13f4b.jpg",
+      "thumbnailURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpwldYVcZUGyCsGHUIPVaRTFP44UMZYpI2lw&usqp=CAU",
+      "id": 3
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "label": "Abstract"
+    },
+    {
+      "id": 2,
+      "label": "Typography"
+    },
+    {
+      "id": 3,
+      "label": "Graffiti"
+    },
+    {
+      "id": 4,
+      "label": "Realism"
+    }
+  ]
+}

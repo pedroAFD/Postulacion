@@ -1,0 +1,38 @@
+<mat-card>
+    <mat-card-title>Create Image</mat-card-title>
+    <mat-card-subtitle>Select new data for the image</mat-card-subtitle>
+    <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Title</mat-label>
+            <input matInput placeholder="title" name="title" [(ngModel)]="photoDetails.title">
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Choose an online URL for the image</mat-label>
+            <input matInput placeholder="image URL" name="imageURL" [(ngModel)]="photoDetails.imageURL">
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Choose an online URL for the thumbnail</mat-label>
+            <input matInput placeholder="thumbnail URL" name="thumbURL" [(ngModel)]="photoDetails.thumbnailURL">
+        </mat-form-field>
+
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Choose tags for this post:
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div *ngFor="let tag of tags">
+                    <mat-checkbox class="example-margin" [(ngModel)]="tag.isSelected" [ngModelOptions]="{standalone: true}">
+                        {{tag.label}}
+                    </mat-checkbox>
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+
+    </form>
+    <mat-card-actions align="end">
+        <button mat-raised-button color="primary" (click)="updateImage()">Update Image</button>        
+    </mat-card-actions>
+</mat-card>
